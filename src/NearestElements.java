@@ -23,7 +23,7 @@ public class NearestElements {
         List<Integer> finalArr = new ArrayList<>();
 
         for(int i= 0; i<n; i++){
-            int difference = 200;
+            int difference = 200; // assume that this number is greater than any other difference
             int item = -1;
 
             for (int k : arr) {
