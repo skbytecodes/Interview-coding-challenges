@@ -8,12 +8,14 @@ import java.util.List;
  // output : {39, 30, 42, 22}
 
 public class NearestElements {
+
     static int difference(int i, int search){
         if(search < i)
             return i - search;
         else
             return search - i;
     }
+
     public static void main(String[] args) {
         int[] arr = {12, 16, 22, 30, 35, 39, 42,45, 48, 50, 53, 55, 56};
         int n = 4, search = 35;
