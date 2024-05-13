@@ -6,6 +6,7 @@ import java.util.List;
  // search : 35
  // K : 4
  // output : {39, 30, 42, 22}
+
 public class NearestElements {
     static int difference(int i, int search){
         if(search < i)
